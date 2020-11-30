@@ -5,7 +5,7 @@ import Dinner from './dinner.js';
 function App() {
     return(
       <div>
-        <Dinner />
+        <Dinner dishName="chiken karahi"/>
       </div>
     );
 }
