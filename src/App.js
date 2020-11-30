@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+
 import Dinner from './dinner.js'
 
 function App() {
     return(
       <div className="App">
-        <dinner dishName="chiken karahi"/>
+        <header className="App.header">
+          <h1>hello good evenings</h1>
+        </header>
       </div>
     );
 }
