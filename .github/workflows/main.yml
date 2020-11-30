@@ -24,7 +24,7 @@ jobs:
       - name: install surge
         run: npm install -g surge
       - name: Deploying on surge
-        run: surge ./build BornReact1.surge.sh --${{secrets.SURGE_TOKEN}}
+        run: surge ./build venomous-respect.surge.sh --${{secrets.SURGE_TOKEN}}
      
 
           
